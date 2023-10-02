@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+}
+
+.anki {
+  border-radius: 8px;
+  background-color: #effbef;
+  padding: 12px 0;
+}
+
+.anki ul {
+  min-width: 300px;
+  padding: 0;
+  margin: 20px;
+}
+
+.anki li {
+  display: block;
+  line-height: 14px;
+  padding: 8px;
+  cursor: default;
+  transition: all 0.2s;
+}
+
+.anki li:hover {
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.anki .content {
+  display: block;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 0 3px black;
+  width: 200px;
+  padding: 8px;
+  z-index: 999;
+}
+
+.anki .content pre {
+  width: 100%;
+  margin: 0;
+  white-space: pre-wrap;
+  line-break: auto;
+}
+
+.anki .btn {
+  display: block;
+  height: 30px;
+  margin: auto;
+}
+
+.anki textarea {
+  display: block;
+  padding: 0;
+  border: none;
+  width: 100%;
+}

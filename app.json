@@ -1,0 +1,14 @@
+{
+  "manifestVersion": 1,
+  "appID": "cli_a590debd9239500d",
+  "appType": "docs-addon",
+  "blockTypeID": "blk_651a62a03301800293b4aca7",
+  "projectName": "anki-gen",
+  "contributes": {
+    "addPanel": {
+      "initialHeight": 200,
+      "view": "index.html"
+    }
+  },
+  "url": "https://exlt3r4izt9.feishu.cn/docx/PWRsdWQIUoKkL9xBdnQco287nAd"
+}
